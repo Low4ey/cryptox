@@ -6,6 +6,8 @@
 }
 .faq_title h2 {
   position: relative;
+  /* --->  if you want to fix faq alignment */
+  margin-left: 1rem; 
   margin-bottom: 45px;
   display: inline-block;
   font-weight: 600;

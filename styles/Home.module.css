@@ -1,6 +1,8 @@
 .main{
   margin-top: 3em;
   display: flex;
+  flex-direction: row;
+  width: 100vw;
 }
 
 .side{
@@ -10,4 +12,19 @@
   margin-left: 3em;
   color: green;
   height: fit-content;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 720px) {
+  .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0em;
+  }
+  .side{
+    width: 60vw;
+    margin-left: 1em;
+  }
 }
