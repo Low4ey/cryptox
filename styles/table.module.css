@@ -1,0 +1,15 @@
+.content{
+    margin-left: 1em;
+}
+.list {
+    padding: 30px 0px 40px 0px;
+    background-color:white;
+    width: 55vw;
+    margin-top: 1em;
+    list-style: disc;
+}
+.list li{
+    padding-top: 1rem;
+    margin-left: 2rem;
+
+}

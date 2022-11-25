@@ -1,0 +1,20 @@
+.bg{
+    margin-top: 4em;
+    height: 468px;
+    background-image: url(https://ocean.go2andaman.com/wp-content/uploads/2021/05/Havelock-Banner-Go2andaman.jpeg?compress=true&quality=90&w=1440&dpr=2.0);
+}
+.black{
+    position: absolute;
+    top: 9.1em;
+    height: 468px;
+    background-color: black;
+    opacity: 30%;
+    width: 100vw;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 20em;
+    left: 25em;
+
+}
