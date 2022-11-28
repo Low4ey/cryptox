@@ -1,8 +1,10 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    color:blue;
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.list_mobile{
+	display: none;
 }
 .list{
     display: flex;
@@ -81,6 +83,9 @@
 	background-color: white;
 	color: black;
 }
+.logo{
+	display: none;
+}
 
 .search {
 	background-color: white;
@@ -108,4 +113,36 @@
 
 .expandright:focus {
 	padding: 0 0 0 16px;
+}
+.btn{
+	display: none;
+}
+@media only screen and (max-width:780px){
+
+.list{
+	display: none;
+}
+.list_mob{
+	background-color: white;
+	list-style: none;
+	position: relative;
+	top: 10em;
+	right: 10em;
+}
+.list_mob li{
+	text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+.btn{
+	display: inline;
+	width: 2.6em;
+}
+.logo{
+	margin-top: 0.7em;
+	display: block;
+}
+
 }
